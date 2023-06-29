@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-between;
 }
+.container{
+    max-height: 700px;
+    overflow-y:hidden;
+}
 .content{
     margin-top: 30px;
     display: flex;
@@ -25,7 +29,7 @@
 }
 .a-text{
     font-size: 14px;
-    color: #ccc;
+    color:gray;
 }
 .text{
     font-size: 14px;
@@ -42,3 +46,78 @@
 .text-div{
     margin-top: 10px;
 }
+
+.items-list{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    color: gray;
+    font-size: 14px;
+}
+.quantity{
+    font-size: 14px;
+    margin-top: 13px;
+    color:gray;
+}
+.ingredients {
+    margin-top: 20px;
+  }
+  
+  .heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .heading > svg {
+    margin-right: 5px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  .ingredient-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .quantity {
+    margin-left: auto;
+  }
+  
+  .appliance-images {
+    display: flex;
+    align-items: center;
+  }
+  
+  .appliance-images img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .imgs{
+    width: 100px;
+    height: 100px;
+  }
+  .scrollable-content {
+    height: 700px;
+    overflow-y: scroll;
+  }
+  .scrollable-content::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+  }

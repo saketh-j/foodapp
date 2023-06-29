@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 import MiddleTimer from '../components/middleTimer/middleTimer';
 import Filters from '../components/filters/Filters';
 import TopDishes from '../components/topDishes/TopDishes';
-import Bottom from '../components/bottomPart/Bottom';
+import Bottom from '../components/downpart/Bottom';
 
 const Page1 = () => {
   return (
