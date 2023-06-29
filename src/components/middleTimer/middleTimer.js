@@ -10,14 +10,14 @@ const MiddleTimer = () => {
          <div className='header-time-tracker'>
             <div className='wrapper'>
                 <i><SlCalender className='absolute-center calender-icon'/></i>
-                <input type="date" className='search-input'
+                <input type="text" className='search-input'
                 placeholder='28 jun 2023' />
             
             </div>
             <div className='separator'></div>
             <div className='header-searchBar'>
                <i><FcAlarmClock className='absolute-center clock-icon'/></i>
-               <input type="time" className='search-input'
+               <input type="text" className='search-input'
                 placeholder='10.30pm-12.30pm' />
             </div>
          </div>
