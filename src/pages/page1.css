@@ -1,0 +1,19 @@
+.container{
+    border: 1px solid white;
+    box-shadow:rgb(28 28 28/8%)0px 2px 8px;
+    width: 370px;
+    height: 700px;
+    border-radius: 3px;
+    margin: auto;
+    left: 50%;
+    margin-top: 40px;
+    background-color: white;
+    overflow: hidden;
+}
+.main-bg{
+    background-color: rgb(229, 228, 228);
+}
+.border{
+border: 4px solid rgb(204, 202, 202);
+margin-top: 10px;
+}

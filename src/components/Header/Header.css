@@ -1,0 +1,15 @@
+.top-header{
+    display: flex;
+    justify-content:space-between;
+}
+.time{
+ padding: 10px;
+ font-size: small;
+ font-weight: 600;
+}
+.symbols{
+  padding: 10px;
+}
+.icons{
+    padding-left: 13px;
+}
